@@ -1,0 +1,49 @@
+{
+  "train_data_analysis": {
+    "total_samples": 2536,
+    "by_config": {
+      "type1_anti": 634,
+      "type1_pro": 634,
+      "type2_anti": 634,
+      "type2_pro": 634
+    },
+    "by_gender_group": {
+      "female": 1265,
+      "male": 1271
+    },
+    "by_sentence_type": {
+      "type1": 1268,
+      "type2": 1268
+    },
+    "stereotypical_vs_anti": {
+      "stereotypical": 1268,
+      "anti_stereotypical": 1268
+    }
+  },
+  "val_data_analysis": {
+    "total_samples": 632,
+    "by_config": {
+      "type1_anti": 158,
+      "type1_pro": 158,
+      "type2_anti": 158,
+      "type2_pro": 158
+    },
+    "by_gender_group": {
+      "male": 316,
+      "female": 316
+    },
+    "by_sentence_type": {
+      "type1": 316,
+      "type2": 316
+    },
+    "stereotypical_vs_anti": {
+      "stereotypical": 316,
+      "anti_stereotypical": 316
+    }
+  },
+  "processing_summary": {
+    "total_processed": 3168,
+    "train_ratio": 0.8005050505050505,
+    "val_ratio": 0.1994949494949495
+  }
+}
